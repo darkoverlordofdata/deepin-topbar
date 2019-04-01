@@ -43,7 +43,7 @@ PositionWidget::PositionWidget(QWidget *parent) : ContentModule(parent)
     layout->setSpacing(0);
     layout->setContentsMargins(10, 0, 10, 0);
 
-    QLabel *posLbl = new QLabel(tr("Position"));
+    QLabel *posLbl = new QLabel(tr("Places"));
     posLbl->setStyleSheet("color: white;");
 
     layout->addWidget(posLbl, 0, Qt::AlignLeft | Qt::AlignVCenter);
